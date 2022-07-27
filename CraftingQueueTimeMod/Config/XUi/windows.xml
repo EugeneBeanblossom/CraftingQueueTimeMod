@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+  <append xpath="/windows/window[@name='windowCraftingQueue']/rect">
+    <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="225,-88" width="77" height="30" color="[black]" type="sliced" fillcenter="false" />
+    <sprite depth="1" name="background" pos="227,-90" height="26" width="73" color="[darkGrey]" type="sliced" />
+    <label depth="4" name="totaltime" controller="BeansTotalCraftingTime, CraftingQueueTimeMod" pos="-6,-92" height="24" font_size="24" justify="Right" color="[beige]" text="{total_craft_time}"/>
+  </append>
+</beans>
